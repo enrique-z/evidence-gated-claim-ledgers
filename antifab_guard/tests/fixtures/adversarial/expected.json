@@ -1,0 +1,35 @@
+{
+  "note": "Expected verdicts for the 6 Phase-C2 adversarial fixtures. The evaluator (p5/antifab_guard/tests/evaluate_guard.py) reads this alongside the fixtures and produces evidence/antifab_guard_eval/confusion_matrix.json.",
+  "fixtures": {
+    "f1_fabricated_percentage.tex": {
+      "expected_violation": "no_claim_id",
+      "expected_token_contains": "99.9%",
+      "description": "Fabricated 99.9% — no such ledger row exists."
+    },
+    "f2_fabricated_n.tex": {
+      "expected_violation": "no_claim_id",
+      "expected_token_contains": "1234",
+      "description": "Fabricated N=1234 — no such ledger row exists."
+    },
+    "f3_contested_verdict.tex": {
+      "expected_violation": "verdict_not_supported",
+      "expected_token_contains": "0.75",
+      "description": "AUROC 0.75 resolves to a CONTESTED ledger entry."
+    },
+    "f4_num_macro.tex": {
+      "expected_violation": null,
+      "expected_token_contains": "0.365",
+      "description": "\\num{0.365} resolves to the SUPPORTED balanced-accuracy claim; no violation."
+    },
+    "f5_safenum_aggregate.tex": {
+      "expected_violation": null,
+      "expected_token_contains": null,
+      "description": "\\SafeNum{9} is whitelisted; no violation."
+    },
+    "f6_sakana_bypass.tex": {
+      "expected_violation": "sakana_layer_bypass",
+      "expected_token_contains": null,
+      "description": "Well-formed prose but SAKANA layer disabled at run time."
+    }
+  }
+}

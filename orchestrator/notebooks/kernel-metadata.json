@@ -1,0 +1,13 @@
+{
+  "id": "enriqzu/p5-gate-oneslide-tracer",
+  "title": "P5 gate-oneslide tracer",
+  "code_file": "gate_oneslide.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "competition_sources": ["prostate-cancer-grade-assessment"],
+  "dataset_sources": [],
+  "kernel_sources": []
+}

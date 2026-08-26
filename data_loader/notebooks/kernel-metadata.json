@@ -1,0 +1,13 @@
+{
+  "id": "enriqzu/panda-loader-smoke",
+  "title": "PANDA Loader Smoke",
+  "code_file": "smoke.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "competition_sources": ["prostate-cancer-grade-assessment"],
+  "dataset_sources": [],
+  "kernel_sources": []
+}

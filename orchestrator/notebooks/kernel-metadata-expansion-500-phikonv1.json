@@ -1,0 +1,15 @@
+{
+  "id": "enriqzu/p5-expansion-500-phikonv1",
+  "title": "p5 expansion 500 phikonv1",
+  "code_file": "expansion_500_phikonv1.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "competition_sources": [
+    "prostate-cancer-grade-assessment"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": []
+}

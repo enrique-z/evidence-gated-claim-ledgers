@@ -1,0 +1,13 @@
+{
+  "id": "enriqzu/p5-expansion-500-dinov2l",
+  "title": "P5 expansion-500 DINOv2-L",
+  "code_file": "expansion_500_hoptimus0.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "competition_sources": ["prostate-cancer-grade-assessment"],
+  "dataset_sources": [],
+  "kernel_sources": []
+}

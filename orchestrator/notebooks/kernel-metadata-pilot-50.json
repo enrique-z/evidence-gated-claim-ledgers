@@ -1,0 +1,13 @@
+{
+  "id": "enriqzu/p5-pilot-50",
+  "title": "P5 pilot-50",
+  "code_file": "pilot_50.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "competition_sources": ["prostate-cancer-grade-assessment"],
+  "dataset_sources": [],
+  "kernel_sources": []
+}
