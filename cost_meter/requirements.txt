@@ -1,0 +1,4 @@
+# Cost Meter module dependencies
+tomli>=2.0.0; python_version < '3.11'
+pytest>=7.0.0
+hypothesis>=6.0.0

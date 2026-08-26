@@ -1,0 +1,8 @@
+[budget]
+# Hard budget cap in USD. The cost meter will refuse to authorize steps
+# that would push cumulative spend over this value.
+cap = 300.0
+
+[storage]
+# Path to the append-only JSON-lines ledger file. Expands ~ to home directory.
+ledger_path = "~/.cache/neurips-26/cost_meter.jsonl"
