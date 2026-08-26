@@ -1,0 +1,26 @@
+{
+  "manuscript": "papers/p5-asci/main.tex",
+  "ledger_files": [
+    "evidence/expansion_500/expansion_500_ledger.jsonl",
+    "evidence/expansion_500/abmil_ledger.jsonl",
+    "evidence/expansion_500/clam_sb_ledger.jsonl",
+    "evidence/pilot_50/pilot_50_ledger.jsonl",
+    "evidence/gate_oneslide/gate_oneslide_ledger.jsonl"
+  ],
+  "ledger_entries_loaded": 1550,
+  "manuscript_census": {
+    "total_numeric_tokens": 308,
+    "safenum_wrapped": 157,
+    "bare_tokens_subject_to_guard": 151
+  },
+  "manuscript_guard_enabled": {
+    "violations": 0,
+    "reasons": {}
+  },
+  "manuscript_guard_disabled_equivalent": {
+    "violations": 0,
+    "reasons": {}
+  },
+  "adversarial_fixture_guard_enabled": 1,
+  "adversarial_fixture_guard_blind": 4
+}

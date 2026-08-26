@@ -1,0 +1,4 @@
+guard run at 2026-08-26T15:13:34.218097+00:00
+manuscript: <repo-root>/papers/p5-asci/main.tex
+ledgers loaded: 8550 entries from 9 files
+  guard OK (8550 ledger entries loaded, 0 violations)

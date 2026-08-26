@@ -1,0 +1,143 @@
+================================================================================
+P5 (ASCI) — pilot-50
+================================================================================
+PANDA mount: /kaggle/input/competitions/prostate-cancer-grade-assessment
+Loaded 50 slides for cohort pilot-50
+  04cc6bb8a2b8b3620e4f1b01af1e8269 isup=0 gleason=0+0
+  5a4ec1ea101e790664aeab41d54cbe75 isup=2 gleason=3+4
+  2a837ababa0cb124818a3b4852244711 isup=1 gleason=3+3
+CUDA probe failed (AcceleratorError: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+); falling back to CPU
+Device: cpu
+
+[1/4] Patch extraction + embedding (with cache) ...
+[embedder] loading owkin/phikon-v2 on cpu ...
+[embedder] loaded in 8.0s
+  [cache MISS] 04cc6bb8a2b8b3620e4f1b01af1e8269
+    embedded 22 patches in 14.9s
+  [cache MISS] 5a4ec1ea101e790664aeab41d54cbe75
+    embedded 37 patches in 24.8s
+  [cache MISS] 2a837ababa0cb124818a3b4852244711
+    embedded 48 patches in 30.1s
+  [cache MISS] 0bd941a8340eaec12fd35ffc798599df
+    embedded 18 patches in 12.5s
+  [cache MISS] f539f2dcee1a03c730a2a5a9e2298fb7
+    embedded 51 patches in 32.4s
+  [cache MISS] 4a098862c27f299e7e674542148286b6
+    embedded 34 patches in 24.2s
+  [cache MISS] 887d935886b409acc14fa55a3c7e05ba
+    embedded 35 patches in 21.4s
+  [cache MISS] 007433133235efc27a39f11df6940829
+    embedded 18 patches in 11.7s
+  [cache MISS] 902c91b64acca0e23028554022413337
+    embedded 22 patches in 13.2s
+  [cache MISS] 0005f7aaab2800f6170c399693a96917
+    embedded 32 patches in 22.3s
+  [cache MISS] 0416b90e91acd8f71831c1723df3feb5
+    embedded 46 patches in 32.8s
+  [cache MISS] 76d1bcd4b79d27c2171a0d6107b31349
+    embedded 14 patches in 8.6s
+  [cache MISS] 6d567f83ca7130da285fcb26d3537762
+    embedded 20 patches in 12.2s
+  [cache MISS] 198fa06f052feedc1684e42829c137fc
+    embedded 22 patches in 13.4s
+  [cache MISS] 07f6b87e1e88e2370609c102502cd51a
+    embedded 38 patches in 26.5s
+  [cache MISS] 69a64d49e142407d3512c068889c0490
+    embedded 15 patches in 9.2s
+  [cache MISS] 1ad725c53a59666f85d84dbea616000f
+    embedded 39 patches in 24.0s
+  [cache MISS] a954a0cc5ddb665162f367e46e4c5a39
+    embedded 33 patches in 22.3s
+  [cache MISS] a599d35b7674406256a5915ffbb23e33
+    embedded 14 patches in 9.0s
+  [cache MISS] 0fa091b9d04aea7cb4bb047d75939204
+    embedded 44 patches in 37.6s
+  [cache MISS] 01642d24ac5520681d6a20f6c42dc4fe
+    embedded 23 patches in 14.1s
+  [cache MISS] 00412139e6b04d1e1cee8421f38f6e90
+    embedded 17 patches in 11.7s
+  [cache MISS] 17e1f862d37507d9b5a73208ef30ccc6
+    embedded 20 patches in 12.2s
+  [cache MISS] b63cd7e9557adcd7ad081fd8bd069539
+    embedded 43 patches in 26.8s
+  [cache MISS] 900ca15382fabf04c7b62af369e0b551
+    embedded 39 patches in 23.5s
+  [cache MISS] 1cca851fcb421dbabc8e6550257e8160
+    embedded 60 patches in 39.1s
+  [cache MISS] 01ad256f991cc99f46f8065cdf0bda01
+    embedded 33 patches in 20.5s
+  [cache MISS] 3e07800d6b2beb390b39f0c534bfd719
+    embedded 24 patches in 15.4s
+  [cache MISS] f373a5772e30bd514a81f02f04d4d973
+    embedded 31 patches in 21.3s
+  [cache MISS] b1f57416afc064e5b995a56d90a45992
+    embedded 46 patches in 31.4s
+  [cache MISS] 2cd038d5c85feb0a8da44407e4fb6a5a
+    embedded 53 patches in 33.4s
+  [cache MISS] 32ed7a2359cfebfb8db4eb360c784adf
+    embedded 40 patches in 24.5s
+  [cache MISS] c121ab04b9ca50cce4453df738a1d6f5
+    embedded 29 patches in 21.6s
+  [cache MISS] ecad7ce730fc63ac02df4a9da719fa1c
+    embedded 29 patches in 17.7s
+  [cache MISS] 8d743ed3d38796d111981e6efb41457a
+    embedded 39 patches in 32.1s
+  [cache MISS] 01065a75c0dfd95f78893ebbfd3c70b3
+    embedded 51 patches in 36.4s
+  [cache MISS] 0532c61a5b3b8223b42bc62b6fac4a48
+    embedded 36 patches in 23.7s
+  [cache MISS] b49cf4744ad7bde55eb848c822b457fd
+    embedded 40 patches in 25.8s
+  [cache MISS] 810ade586864058f358c1253fc09a8eb
+    embedded 44 patches in 27.9s
+  [cache MISS] 0d78804d555b81c004df3b681b939ff6
+    embedded 20 patches in 12.6s
+  [cache MISS] 20a13fefec6f1487c80bb0c89c1505a1
+    embedded 33 patches in 22.2s
+  [cache MISS] df12d6ee0acc0f9ac57749e68c2c3ab1
+    embedded 51 patches in 33.1s
+  [cache MISS] 516598fef0cb4c22e42999b3df120e2c
+    embedded 16 patches in 10.0s
+  [cache MISS] db2ba90004c04e2de4213fa0c2614f82
+    embedded 12 patches in 7.5s
+  [cache MISS] 30fe4507ced857a7c09246018e2c0c3e
+    embedded 36 patches in 22.3s
+  [cache MISS] 8d2b245c0b16c142dcd57fa32cbc6d86
+    embedded 25 patches in 15.4s
+  [cache MISS] 4f066c3230d1e0d5f38a1837ea1a86e6
+    embedded 37 patches in 22.6s
+  [cache MISS] 0c884ecf6571905365546a078c02133b
+    embedded 54 patches in 32.8s
+  [cache MISS] fdc20a833738385bedbdfdabe9721bde
+    embedded 37 patches in 22.6s
+  [cache MISS] 16cc34b16c0b30e43e8c33f572440ae6
+    embedded 40 patches in 23.9s
+[1/4] embedding pass done in 1115.3s (embed_wall_clock=1087.0s across cold slides)
+
+[2/4] 5-fold CV training + prediction ...
+  mil_version = trained@pilot-50-cv5-seed42
+  MIL wall-clock = 0.2s
+
+[3/4] Gate + ledger append ...
+  ledger appended: /kaggle/working/pilot_50_ledger.jsonl
+  verdict distribution: {'SUPPORTED': 0, 'UNSUPPORTED': 6, 'NOT_APPLICABLE': 0, 'CONTESTED': 44}
+
+[4/4] Metrics + report ...
+  report written: /kaggle/working/pilot_50_report.md
+
+================================================================================
+pilot-50 SUMMARY
+================================================================================
+  slides: 50
+  verdicts: {'SUPPORTED': 0, 'UNSUPPORTED': 6, 'NOT_APPLICABLE': 0, 'CONTESTED': 44}
+  macro_accuracy: 0.20454545454545456
+  embed_wall_clock: 1087.0s
+  mil_wall_clock: 0.2s
+  cost_proxy: $0.7550
+
+PILOT-50 OK

@@ -1,0 +1,47 @@
+{
+  "mean_pool": {
+    "n_rows": 500,
+    "by_provider": {
+      "karolinska": {
+        "n_total": 252,
+        "counts": {
+          "SUPPORTED": 8,
+          "UNSUPPORTED": 22,
+          "CONTESTED": 222,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.031746031746031744,
+          "UNSUPPORTED": 0.0873015873015873,
+          "CONTESTED": 0.8809523809523809,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_cancer_count": 2,
+        "SUPPORTED_total": 8
+      },
+      "radboud": {
+        "n_total": 248,
+        "counts": {
+          "SUPPORTED": 1,
+          "UNSUPPORTED": 104,
+          "CONTESTED": 143,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.004032258064516129,
+          "UNSUPPORTED": 0.41935483870967744,
+          "CONTESTED": 0.5766129032258065,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_cancer_count": 0,
+        "SUPPORTED_total": 1
+      }
+    }
+  },
+  "abmil": {
+    "error": "data_provider not in extra field"
+  },
+  "clam_sb": {
+    "error": "data_provider not in extra field"
+  }
+}

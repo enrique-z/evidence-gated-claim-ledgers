@@ -1,0 +1,167 @@
+{
+  "seed": 42,
+  "n_boot": 1000,
+  "ci_percentiles": [
+    2.5,
+    97.5
+  ],
+  "mean_pool": {
+    "n_rows": 500,
+    "observed": {
+      "verdict_counts": {
+        "SUPPORTED": 9,
+        "UNSUPPORTED": 126,
+        "CONTESTED": 365,
+        "NOT_APPLICABLE": 0
+      },
+      "supported_accuracy": 0.7777777777777778,
+      "supported_cancer_misclass": 2
+    },
+    "bootstrap": {
+      "verdict_counts": {
+        "SUPPORTED": {
+          "mean": 9.061,
+          "ci_low": 4.0,
+          "ci_high": 16.0,
+          "n_finite": 1000
+        },
+        "UNSUPPORTED": {
+          "mean": 125.822,
+          "ci_low": 108.0,
+          "ci_high": 145.0,
+          "n_finite": 1000
+        },
+        "CONTESTED": {
+          "mean": 365.117,
+          "ci_low": 345.97499999999997,
+          "ci_high": 383.0,
+          "n_finite": 1000
+        },
+        "NOT_APPLICABLE": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n_finite": 1000
+        }
+      },
+      "supported_accuracy": {
+        "mean": 0.7801595254215278,
+        "ci_low": 0.44325396825396823,
+        "ci_high": 1.0,
+        "n_finite": 998
+      },
+      "supported_cancer_misclass": {
+        "mean": 2.008,
+        "ci_low": 0.0,
+        "ci_high": 5.0,
+        "n_finite": 1000
+      }
+    }
+  },
+  "abmil": {
+    "n_rows": 500,
+    "observed": {
+      "verdict_counts": {
+        "SUPPORTED": 90,
+        "UNSUPPORTED": 49,
+        "CONTESTED": 361,
+        "NOT_APPLICABLE": 0
+      },
+      "supported_accuracy": 0.8111111111111111,
+      "supported_cancer_misclass": 21
+    },
+    "bootstrap": {
+      "verdict_counts": {
+        "SUPPORTED": {
+          "mean": 89.869,
+          "ci_low": 73.0,
+          "ci_high": 108.0,
+          "n_finite": 1000
+        },
+        "UNSUPPORTED": {
+          "mean": 49.103,
+          "ci_low": 37.0,
+          "ci_high": 63.0,
+          "n_finite": 1000
+        },
+        "CONTESTED": {
+          "mean": 361.028,
+          "ci_low": 340.0,
+          "ci_high": 381.0,
+          "n_finite": 1000
+        },
+        "NOT_APPLICABLE": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n_finite": 1000
+        }
+      },
+      "supported_accuracy": {
+        "mean": 0.8114500295696875,
+        "ci_low": 0.7316942040388146,
+        "ci_high": 0.8863636363636364,
+        "n_finite": 1000
+      },
+      "supported_cancer_misclass": {
+        "mean": 21.109,
+        "ci_low": 13.0,
+        "ci_high": 30.0,
+        "n_finite": 1000
+      }
+    }
+  },
+  "clam_sb": {
+    "n_rows": 500,
+    "observed": {
+      "verdict_counts": {
+        "SUPPORTED": 89,
+        "UNSUPPORTED": 51,
+        "CONTESTED": 360,
+        "NOT_APPLICABLE": 0
+      },
+      "supported_accuracy": 0.8089887640449438,
+      "supported_cancer_misclass": 21
+    },
+    "bootstrap": {
+      "verdict_counts": {
+        "SUPPORTED": {
+          "mean": 88.901,
+          "ci_low": 72.0,
+          "ci_high": 107.0,
+          "n_finite": 1000
+        },
+        "UNSUPPORTED": {
+          "mean": 51.17,
+          "ci_low": 39.0,
+          "ci_high": 65.0,
+          "n_finite": 1000
+        },
+        "CONTESTED": {
+          "mean": 359.929,
+          "ci_low": 338.0,
+          "ci_high": 381.0,
+          "n_finite": 1000
+        },
+        "NOT_APPLICABLE": {
+          "mean": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "n_finite": 1000
+        }
+      },
+      "supported_accuracy": {
+        "mean": 0.8093747629675103,
+        "ci_low": 0.7294056372549019,
+        "ci_high": 0.8846153846153846,
+        "n_finite": 1000
+      },
+      "supported_cancer_misclass": {
+        "mean": 21.109,
+        "ci_low": 13.0,
+        "ci_high": 30.0,
+        "n_finite": 1000
+      }
+    }
+  }
+}

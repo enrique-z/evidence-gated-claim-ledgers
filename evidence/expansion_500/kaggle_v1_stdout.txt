@@ -1,0 +1,64 @@
+================================================================================
+P5 (ASCI) — expansion-500
+================================================================================
+PANDA mount: /kaggle/input/competitions/prostate-cancer-grade-assessment
+Loaded 500 slides for cohort expansion-500
+  06636cdd43041e78141f2f5069fa62d5 isup=4 gleason=3+5
+  6be426efd18e180fd898190490340f66 isup=1 gleason=3+3
+  2a4cff606b103cb1698560ba1dee0eb6 isup=4 gleason=4+4
+CUDA probe failed (AcceleratorError: CUDA error: no kernel image is available for execution on the device
+Search for `cudaErrorNoKernelImageForDevice' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+); falling back to CPU
+Device: cpu
+
+[1/4] Patch extraction + embedding (with cache) ...
+  progress: 0/500  elapsed=0s
+[embedder] loading owkin/phikon-v2 on cpu ...
+[embedder] loaded in 12.4s
+  progress: 25/500  elapsed=636s
+  progress: 50/500  elapsed=1203s
+  progress: 75/500  elapsed=1729s
+  progress: 100/500  elapsed=2262s
+  progress: 125/500  elapsed=2813s
+  progress: 150/500  elapsed=3402s
+  progress: 175/500  elapsed=3961s
+  progress: 200/500  elapsed=4477s
+  progress: 225/500  elapsed=5047s
+  progress: 250/500  elapsed=5554s
+  progress: 275/500  elapsed=6206s
+  progress: 300/500  elapsed=6781s
+  progress: 325/500  elapsed=7290s
+  progress: 350/500  elapsed=7840s
+  progress: 375/500  elapsed=8343s
+  progress: 400/500  elapsed=8939s
+  progress: 425/500  elapsed=9493s
+  progress: 450/500  elapsed=10005s
+  progress: 475/500  elapsed=10601s
+[1/4] embedding pass done in 11181.1s (embed_wall_clock=11144.4s across cold slides; 0 slides skipped)
+
+[2/4] 5-fold CV training + prediction ...
+  mil_version = trained@expansion-500-cv5-seed42
+  MIL wall-clock = 0.4s
+
+[3/4] Gate + ledger append ...
+  ledger appended: /kaggle/working/expansion_500_ledger.jsonl
+  verdict distribution: {'SUPPORTED': 9, 'UNSUPPORTED': 126, 'NOT_APPLICABLE': 0, 'CONTESTED': 365}
+
+[4/4] Metrics + report ...
+  report written: /kaggle/working/expansion_500_report.md
+
+================================================================================
+EXPANSION-500 SUMMARY
+================================================================================
+  slides: 500
+  skipped: 0
+  verdicts: {'SUPPORTED': 9, 'UNSUPPORTED': 126, 'NOT_APPLICABLE': 0, 'CONTESTED': 365}
+  macro_accuracy: 0.3651533255012949
+  embed_wall_clock: 11144.4s
+  mil_wall_clock: 0.4s
+  cost_proxy: $7.7395
+
+EXPANSION-500 OK

@@ -1,0 +1,711 @@
+{
+  "cohorts": {
+    "expansion-500": {
+      "n": 500
+    },
+    "pilot-50": {
+      "n": 50
+    }
+  },
+  "heads": {
+    "abmil": {
+      "balanced_accuracy": 0.4389184073668628,
+      "head": "abmil",
+      "misclassified_low_or_high_grade_cancer_in_supported": 21,
+      "n_rows": 500,
+      "per_grade_total": {
+        "0": 134,
+        "1": 129,
+        "2": 65,
+        "3": 64,
+        "4": 60,
+        "5": 48
+      },
+      "per_verdict": {
+        "CONTESTED": {
+          "accuracy": 0.4626038781163435,
+          "accuracy_wilson95_hi": 0.5141611871422491,
+          "accuracy_wilson95_lo": 0.41183406547298446,
+          "correct": 167,
+          "mean_confidence": 0.4470065061075205,
+          "n": 361
+        },
+        "NOT_APPLICABLE": {
+          "accuracy": null,
+          "accuracy_wilson95_hi": null,
+          "accuracy_wilson95_lo": null,
+          "correct": 0,
+          "mean_confidence": null,
+          "n": 0
+        },
+        "SUPPORTED": {
+          "accuracy": 0.8111111111111111,
+          "accuracy_wilson95_hi": 0.8785874019880813,
+          "accuracy_wilson95_lo": 0.7181637639420728,
+          "correct": 73,
+          "mean_confidence": 0.8089327335357666,
+          "n": 90
+        },
+        "UNSUPPORTED": {
+          "accuracy": 0.24489795918367346,
+          "accuracy_wilson95_hi": 0.38086319102762245,
+          "accuracy_wilson95_lo": 0.14602345197441022,
+          "correct": 12,
+          "mean_confidence": 0.2762273367570371,
+          "n": 49
+        }
+      },
+      "raw_accuracy": 0.504,
+      "supported_predicted_grade_counts": {
+        "0": 83,
+        "1": 6,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "supported_truth_grade_counts": {
+        "0": 69,
+        "1": 14,
+        "2": 3,
+        "3": 2,
+        "4": 1,
+        "5": 1
+      }
+    },
+    "clam-sb": {
+      "balanced_accuracy": 0.44021039703094544,
+      "head": "clam-sb",
+      "misclassified_low_or_high_grade_cancer_in_supported": 21,
+      "n_rows": 500,
+      "per_grade_total": {
+        "0": 134,
+        "1": 129,
+        "2": 65,
+        "3": 64,
+        "4": 60,
+        "5": 48
+      },
+      "per_verdict": {
+        "CONTESTED": {
+          "accuracy": 0.46944444444444444,
+          "accuracy_wilson95_hi": 0.5210482460897716,
+          "accuracy_wilson95_lo": 0.41848585739683086,
+          "correct": 169,
+          "mean_confidence": 0.44712698633472125,
+          "n": 360
+        },
+        "NOT_APPLICABLE": {
+          "accuracy": null,
+          "accuracy_wilson95_hi": null,
+          "accuracy_wilson95_lo": null,
+          "correct": 0,
+          "mean_confidence": null,
+          "n": 0
+        },
+        "SUPPORTED": {
+          "accuracy": 0.8089887640449438,
+          "accuracy_wilson95_hi": 0.8771804355492863,
+          "accuracy_wilson95_lo": 0.7152273170079109,
+          "correct": 72,
+          "mean_confidence": 0.8090734475114373,
+          "n": 89
+        },
+        "UNSUPPORTED": {
+          "accuracy": 0.23529411764705882,
+          "accuracy_wilson95_hi": 0.3676222527305,
+          "accuracy_wilson95_lo": 0.14004948775982248,
+          "correct": 12,
+          "mean_confidence": 0.27676337431458864,
+          "n": 51
+        }
+      },
+      "raw_accuracy": 0.506,
+      "supported_predicted_grade_counts": {
+        "0": 82,
+        "1": 6,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "supported_truth_grade_counts": {
+        "0": 68,
+        "1": 14,
+        "2": 3,
+        "3": 2,
+        "4": 1,
+        "5": 1
+      }
+    },
+    "mean-pool": {
+      "balanced_accuracy": 0.3651533255012949,
+      "head": "mean-pool",
+      "misclassified_low_or_high_grade_cancer_in_supported": 2,
+      "n_rows": 500,
+      "per_grade_total": {
+        "0": 134,
+        "1": 129,
+        "2": 65,
+        "3": 64,
+        "4": 60,
+        "5": 48
+      },
+      "per_verdict": {
+        "CONTESTED": {
+          "accuracy": 0.473972602739726,
+          "accuracy_wilson95_hi": 0.52520200493758,
+          "accuracy_wilson95_lo": 0.42328534771082504,
+          "correct": 173,
+          "mean_confidence": 0.434546454638651,
+          "n": 365
+        },
+        "NOT_APPLICABLE": {
+          "accuracy": null,
+          "accuracy_wilson95_hi": null,
+          "accuracy_wilson95_lo": null,
+          "correct": 0,
+          "mean_confidence": null,
+          "n": 0
+        },
+        "SUPPORTED": {
+          "accuracy": 0.7777777777777778,
+          "accuracy_wilson95_hi": 0.9367748934594302,
+          "accuracy_wilson95_lo": 0.45258896669221177,
+          "correct": 7,
+          "mean_confidence": 0.746736380789015,
+          "n": 9
+        },
+        "UNSUPPORTED": {
+          "accuracy": 0.2698412698412698,
+          "accuracy_wilson95_hi": 0.3533029033914973,
+          "accuracy_wilson95_lo": 0.19999848046752944,
+          "correct": 34,
+          "mean_confidence": 0.2588879130189381,
+          "n": 126
+        }
+      },
+      "raw_accuracy": 0.428,
+      "supported_predicted_grade_counts": {
+        "0": 9,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "supported_truth_grade_counts": {
+        "0": 7,
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "pilot-50": {
+      "balanced_accuracy": 0.20454545454545456,
+      "head": "pilot-50",
+      "misclassified_low_or_high_grade_cancer_in_supported": 0,
+      "n_rows": 50,
+      "per_grade_total": {
+        "0": 10,
+        "1": 10,
+        "2": 11,
+        "3": 11,
+        "4": 4,
+        "5": 4
+      },
+      "per_verdict": {
+        "CONTESTED": {
+          "accuracy": 0.25,
+          "accuracy_wilson95_hi": 0.3944056648063223,
+          "accuracy_wilson95_lo": 0.14574213765542338,
+          "correct": 11,
+          "mean_confidence": 0.4559835053303025,
+          "n": 44
+        },
+        "NOT_APPLICABLE": {
+          "accuracy": null,
+          "accuracy_wilson95_hi": null,
+          "accuracy_wilson95_lo": null,
+          "correct": 0,
+          "mean_confidence": null,
+          "n": 0
+        },
+        "SUPPORTED": {
+          "accuracy": null,
+          "accuracy_wilson95_hi": null,
+          "accuracy_wilson95_lo": null,
+          "correct": 0,
+          "mean_confidence": null,
+          "n": 0
+        },
+        "UNSUPPORTED": {
+          "accuracy": 0.3333333333333333,
+          "accuracy_wilson95_hi": 0.7000066870052566,
+          "accuracy_wilson95_lo": 0.09677141021353453,
+          "correct": 2,
+          "mean_confidence": 0.27816084772348404,
+          "n": 6
+        }
+      },
+      "raw_accuracy": 0.26,
+      "supported_predicted_grade_counts": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "supported_truth_grade_counts": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    }
+  },
+  "regenerated_at": "2026-08-11T09:54:28.316934+00:00",
+  "safenum_manifest": [
+    {
+      "desc": "expansion-500 slide count",
+      "kind": "cohort_size",
+      "value": 500
+    },
+    {
+      "desc": "pilot-50 slide count",
+      "kind": "cohort_size",
+      "value": 50
+    },
+    {
+      "desc": "deterministic shuffle + CV seed",
+      "kind": "seed",
+      "value": 42
+    },
+    {
+      "desc": "patch height/width in pixels",
+      "kind": "patch_size",
+      "value": 256
+    },
+    {
+      "desc": "max patches per slide",
+      "kind": "patch_cap",
+      "value": 200
+    },
+    {
+      "desc": "total ledger rows loaded by guard",
+      "kind": "ledger_entries",
+      "value": 3050
+    },
+    {
+      "desc": "expansion-500 slides with true ISUP=0",
+      "kind": "grade_total",
+      "value": 134
+    },
+    {
+      "desc": "expansion-500 slides with true ISUP=1",
+      "kind": "grade_total",
+      "value": 129
+    },
+    {
+      "desc": "expansion-500 slides with true ISUP=2",
+      "kind": "grade_total",
+      "value": 65
+    },
+    {
+      "desc": "expansion-500 slides with true ISUP=3",
+      "kind": "grade_total",
+      "value": 64
+    },
+    {
+      "desc": "expansion-500 slides with true ISUP=4",
+      "kind": "grade_total",
+      "value": 60
+    },
+    {
+      "desc": "expansion-500 slides with true ISUP=5",
+      "kind": "grade_total",
+      "value": 48
+    },
+    {
+      "desc": "mean-pool SUPPORTED count",
+      "kind": "verdict_count",
+      "value": 9
+    },
+    {
+      "desc": "mean-pool SUPPORTED correct",
+      "kind": "verdict_correct",
+      "value": 7
+    },
+    {
+      "desc": "mean-pool SUPPORTED accuracy",
+      "kind": "verdict_accuracy",
+      "value": 0.778
+    },
+    {
+      "desc": "mean-pool SUPPORTED 95% Wilson lower",
+      "kind": "verdict_accuracy_lo",
+      "value": 0.453
+    },
+    {
+      "desc": "mean-pool SUPPORTED 95% Wilson upper",
+      "kind": "verdict_accuracy_hi",
+      "value": 0.937
+    },
+    {
+      "desc": "mean-pool SUPPORTED mean confidence",
+      "kind": "verdict_mean_confidence",
+      "value": 0.747
+    },
+    {
+      "desc": "mean-pool UNSUPPORTED count",
+      "kind": "verdict_count",
+      "value": 126
+    },
+    {
+      "desc": "mean-pool UNSUPPORTED correct",
+      "kind": "verdict_correct",
+      "value": 34
+    },
+    {
+      "desc": "mean-pool UNSUPPORTED accuracy",
+      "kind": "verdict_accuracy",
+      "value": 0.27
+    },
+    {
+      "desc": "mean-pool UNSUPPORTED 95% Wilson lower",
+      "kind": "verdict_accuracy_lo",
+      "value": 0.2
+    },
+    {
+      "desc": "mean-pool UNSUPPORTED 95% Wilson upper",
+      "kind": "verdict_accuracy_hi",
+      "value": 0.353
+    },
+    {
+      "desc": "mean-pool UNSUPPORTED mean confidence",
+      "kind": "verdict_mean_confidence",
+      "value": 0.259
+    },
+    {
+      "desc": "mean-pool CONTESTED count",
+      "kind": "verdict_count",
+      "value": 365
+    },
+    {
+      "desc": "mean-pool CONTESTED correct",
+      "kind": "verdict_correct",
+      "value": 173
+    },
+    {
+      "desc": "mean-pool CONTESTED accuracy",
+      "kind": "verdict_accuracy",
+      "value": 0.474
+    },
+    {
+      "desc": "mean-pool CONTESTED 95% Wilson lower",
+      "kind": "verdict_accuracy_lo",
+      "value": 0.423
+    },
+    {
+      "desc": "mean-pool CONTESTED 95% Wilson upper",
+      "kind": "verdict_accuracy_hi",
+      "value": 0.525
+    },
+    {
+      "desc": "mean-pool CONTESTED mean confidence",
+      "kind": "verdict_mean_confidence",
+      "value": 0.435
+    },
+    {
+      "desc": "mean-pool raw accuracy on expansion-500",
+      "kind": "raw_accuracy",
+      "value": 0.428
+    },
+    {
+      "desc": "mean-pool balanced accuracy",
+      "kind": "balanced_accuracy",
+      "value": 0.365
+    },
+    {
+      "desc": "abmil SUPPORTED count",
+      "kind": "verdict_count",
+      "value": 90
+    },
+    {
+      "desc": "abmil SUPPORTED correct",
+      "kind": "verdict_correct",
+      "value": 73
+    },
+    {
+      "desc": "abmil SUPPORTED accuracy",
+      "kind": "verdict_accuracy",
+      "value": 0.811
+    },
+    {
+      "desc": "abmil SUPPORTED 95% Wilson lower",
+      "kind": "verdict_accuracy_lo",
+      "value": 0.718
+    },
+    {
+      "desc": "abmil SUPPORTED 95% Wilson upper",
+      "kind": "verdict_accuracy_hi",
+      "value": 0.879
+    },
+    {
+      "desc": "abmil SUPPORTED mean confidence",
+      "kind": "verdict_mean_confidence",
+      "value": 0.809
+    },
+    {
+      "desc": "abmil UNSUPPORTED count",
+      "kind": "verdict_count",
+      "value": 49
+    },
+    {
+      "desc": "abmil UNSUPPORTED correct",
+      "kind": "verdict_correct",
+      "value": 12
+    },
+    {
+      "desc": "abmil UNSUPPORTED accuracy",
+      "kind": "verdict_accuracy",
+      "value": 0.245
+    },
+    {
+      "desc": "abmil UNSUPPORTED 95% Wilson lower",
+      "kind": "verdict_accuracy_lo",
+      "value": 0.146
+    },
+    {
+      "desc": "abmil UNSUPPORTED 95% Wilson upper",
+      "kind": "verdict_accuracy_hi",
+      "value": 0.381
+    },
+    {
+      "desc": "abmil UNSUPPORTED mean confidence",
+      "kind": "verdict_mean_confidence",
+      "value": 0.276
+    },
+    {
+      "desc": "abmil CONTESTED count",
+      "kind": "verdict_count",
+      "value": 361
+    },
+    {
+      "desc": "abmil CONTESTED correct",
+      "kind": "verdict_correct",
+      "value": 167
+    },
+    {
+      "desc": "abmil CONTESTED accuracy",
+      "kind": "verdict_accuracy",
+      "value": 0.463
+    },
+    {
+      "desc": "abmil CONTESTED 95% Wilson lower",
+      "kind": "verdict_accuracy_lo",
+      "value": 0.412
+    },
+    {
+      "desc": "abmil CONTESTED 95% Wilson upper",
+      "kind": "verdict_accuracy_hi",
+      "value": 0.514
+    },
+    {
+      "desc": "abmil CONTESTED mean confidence",
+      "kind": "verdict_mean_confidence",
+      "value": 0.447
+    },
+    {
+      "desc": "abmil raw accuracy on expansion-500",
+      "kind": "raw_accuracy",
+      "value": 0.504
+    },
+    {
+      "desc": "abmil balanced accuracy",
+      "kind": "balanced_accuracy",
+      "value": 0.439
+    },
+    {
+      "desc": "clam-sb SUPPORTED count",
+      "kind": "verdict_count",
+      "value": 89
+    },
+    {
+      "desc": "clam-sb SUPPORTED correct",
+      "kind": "verdict_correct",
+      "value": 72
+    },
+    {
+      "desc": "clam-sb SUPPORTED accuracy",
+      "kind": "verdict_accuracy",
+      "value": 0.809
+    },
+    {
+      "desc": "clam-sb SUPPORTED 95% Wilson lower",
+      "kind": "verdict_accuracy_lo",
+      "value": 0.715
+    },
+    {
+      "desc": "clam-sb SUPPORTED 95% Wilson upper",
+      "kind": "verdict_accuracy_hi",
+      "value": 0.877
+    },
+    {
+      "desc": "clam-sb SUPPORTED mean confidence",
+      "kind": "verdict_mean_confidence",
+      "value": 0.809
+    },
+    {
+      "desc": "clam-sb UNSUPPORTED count",
+      "kind": "verdict_count",
+      "value": 51
+    },
+    {
+      "desc": "clam-sb UNSUPPORTED correct",
+      "kind": "verdict_correct",
+      "value": 12
+    },
+    {
+      "desc": "clam-sb UNSUPPORTED accuracy",
+      "kind": "verdict_accuracy",
+      "value": 0.235
+    },
+    {
+      "desc": "clam-sb UNSUPPORTED 95% Wilson lower",
+      "kind": "verdict_accuracy_lo",
+      "value": 0.14
+    },
+    {
+      "desc": "clam-sb UNSUPPORTED 95% Wilson upper",
+      "kind": "verdict_accuracy_hi",
+      "value": 0.368
+    },
+    {
+      "desc": "clam-sb UNSUPPORTED mean confidence",
+      "kind": "verdict_mean_confidence",
+      "value": 0.277
+    },
+    {
+      "desc": "clam-sb CONTESTED count",
+      "kind": "verdict_count",
+      "value": 360
+    },
+    {
+      "desc": "clam-sb CONTESTED correct",
+      "kind": "verdict_correct",
+      "value": 169
+    },
+    {
+      "desc": "clam-sb CONTESTED accuracy",
+      "kind": "verdict_accuracy",
+      "value": 0.469
+    },
+    {
+      "desc": "clam-sb CONTESTED 95% Wilson lower",
+      "kind": "verdict_accuracy_lo",
+      "value": 0.418
+    },
+    {
+      "desc": "clam-sb CONTESTED 95% Wilson upper",
+      "kind": "verdict_accuracy_hi",
+      "value": 0.521
+    },
+    {
+      "desc": "clam-sb CONTESTED mean confidence",
+      "kind": "verdict_mean_confidence",
+      "value": 0.447
+    },
+    {
+      "desc": "clam-sb raw accuracy on expansion-500",
+      "kind": "raw_accuracy",
+      "value": 0.506
+    },
+    {
+      "desc": "clam-sb balanced accuracy",
+      "kind": "balanced_accuracy",
+      "value": 0.44
+    },
+    {
+      "desc": "mean-pool SUPPORTED predicted-grade-0 count",
+      "kind": "supported_pred_grade",
+      "value": 9
+    },
+    {
+      "desc": "mean-pool SUPPORTED truth-grade-0 count",
+      "kind": "supported_truth_grade",
+      "value": 7
+    },
+    {
+      "desc": "mean-pool SUPPORTED predicted-grade-1 count",
+      "kind": "supported_pred_grade",
+      "value": 0
+    },
+    {
+      "desc": "mean-pool SUPPORTED truth-grade-1 count",
+      "kind": "supported_truth_grade",
+      "value": 1
+    },
+    {
+      "desc": "mean-pool SUPPORTED predicted-grade-2 count",
+      "kind": "supported_pred_grade",
+      "value": 0
+    },
+    {
+      "desc": "mean-pool SUPPORTED truth-grade-2 count",
+      "kind": "supported_truth_grade",
+      "value": 1
+    },
+    {
+      "desc": "ABMIL SUPPORTED verdicts that are actually ISUP 1-5 (any cancer misclassified)",
+      "kind": "abmil_cancer_in_supported",
+      "value": 21
+    },
+    {
+      "desc": "ABMIL SUPPORTED predictions that are grade-0",
+      "kind": "abmil_supported_grade0",
+      "value": 83
+    },
+    {
+      "desc": "ABMIL SUPPORTED total",
+      "kind": "abmil_supported_total",
+      "value": 90
+    },
+    {
+      "desc": "ABMIL SUPPORTED grade-0 share, percent (rounded)",
+      "kind": "abmil_supported_grade0_pct",
+      "value": 92.0
+    },
+    {
+      "desc": "mean-pool SUPPORTED misclassified low-grade cancer count",
+      "kind": "count",
+      "value": 2
+    },
+    {
+      "desc": "ABMIL SUPPORTED slides actually cancer (from truth-grade dist)",
+      "kind": "count",
+      "value": 14
+    },
+    {
+      "desc": "10x jump 9->90 SUPPORTED count under attention pooling",
+      "kind": "factor",
+      "value": 10
+    },
+    {
+      "desc": "adversarial fixtures matched",
+      "kind": "count",
+      "value": 6
+    },
+    {
+      "desc": "guard violations at build time",
+      "kind": "count",
+      "value": 0
+    }
+  ],
+  "wilson_z": 1.959964
+}

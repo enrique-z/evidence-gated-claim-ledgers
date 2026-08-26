@@ -1,0 +1,53 @@
+{
+  "base": "phikon-v2-owkin@2026-08-05 (mean-pool, expansion-500)",
+  "gate_rule": "confidence-threshold-v1@2026-08-05 (0.70/0.30)",
+  "comparisons": {
+    "phikon-v1 (Owkin, pathology)": {
+      "n": 500,
+      "agree": 342,
+      "agree_rate": 0.684,
+      "verdicts": {
+        "CONTESTED": 390,
+        "SUPPORTED": 60,
+        "UNSUPPORTED": 50
+      },
+      "supported_base": 9,
+      "supported_this": 60,
+      "supported_both": 8,
+      "supported_acc": 0.75,
+      "supported_grade0_pred": 41,
+      "supported_actually_cancer": 25
+    },
+    "lunit-dino (Lunit, pathology)": {
+      "n": 500,
+      "agree": 388,
+      "agree_rate": 0.776,
+      "verdicts": {
+        "CONTESTED": 401,
+        "SUPPORTED": 24,
+        "UNSUPPORTED": 75
+      },
+      "supported_base": 9,
+      "supported_this": 24,
+      "supported_both": 6,
+      "supported_acc": 0.6667,
+      "supported_grade0_pred": 15,
+      "supported_actually_cancer": 13
+    },
+    "dinov2-large (Meta, natural-image)": {
+      "n": 500,
+      "agree": 369,
+      "agree_rate": 0.738,
+      "verdicts": {
+        "CONTESTED": 311,
+        "UNSUPPORTED": 189
+      },
+      "supported_base": 9,
+      "supported_this": 0,
+      "supported_both": 0,
+      "supported_acc": null,
+      "supported_grade0_pred": 0,
+      "supported_actually_cancer": 0
+    }
+  }
+}

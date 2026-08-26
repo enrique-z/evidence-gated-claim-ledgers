@@ -1,0 +1,317 @@
+{
+  "cohort_id": "expansion-500",
+  "egcl_operating_points": {
+    "abmil": {
+      "supported_accuracy": 0.8111111111111111,
+      "supported_count": 90,
+      "supported_coverage": 0.18
+    },
+    "clam-sb": {
+      "supported_accuracy": 0.8089887640449438,
+      "supported_count": 89,
+      "supported_coverage": 0.178
+    },
+    "mean-pool": {
+      "supported_accuracy": 0.7777777777777778,
+      "supported_count": 9,
+      "supported_coverage": 0.018
+    }
+  },
+  "heads": {
+    "abmil": {
+      "balanced_accuracy": 0.4389184073668628,
+      "brier": 0.6226741560237458,
+      "ece": 0.039411210179328915,
+      "n_slides": 500,
+      "nll": 1.2640168363942768,
+      "per_verdict": {
+        "CONTESTED": {
+          "accuracy": 0.4626038781163435,
+          "correct": 167,
+          "mean_confidence": 0.4470065061075205,
+          "n": 361,
+          "predicted_grade_counts": {
+            "0": 78,
+            "1": 138,
+            "2": 33,
+            "3": 48,
+            "4": 27,
+            "5": 37
+          },
+          "truth_grade_counts": {
+            "0": 62,
+            "1": 107,
+            "2": 50,
+            "3": 53,
+            "4": 46,
+            "5": 43
+          }
+        },
+        "NOT_APPLICABLE": {
+          "accuracy": null,
+          "correct": 0,
+          "mean_confidence": null,
+          "n": 0,
+          "predicted_grade_counts": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "truth_grade_counts": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "SUPPORTED": {
+          "accuracy": 0.8111111111111111,
+          "correct": 73,
+          "mean_confidence": 0.8089327335357666,
+          "n": 90,
+          "predicted_grade_counts": {
+            "0": 83,
+            "1": 6,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "truth_grade_counts": {
+            "0": 69,
+            "1": 14,
+            "2": 3,
+            "3": 2,
+            "4": 1,
+            "5": 1
+          }
+        },
+        "UNSUPPORTED": {
+          "accuracy": 0.24489795918367346,
+          "correct": 12,
+          "mean_confidence": 0.2762273367570371,
+          "n": 49,
+          "predicted_grade_counts": {
+            "0": 4,
+            "1": 15,
+            "2": 6,
+            "3": 10,
+            "4": 7,
+            "5": 7
+          },
+          "truth_grade_counts": {
+            "0": 3,
+            "1": 8,
+            "2": 12,
+            "3": 9,
+            "4": 13,
+            "5": 4
+          }
+        }
+      },
+      "raw_accuracy": 0.504
+    },
+    "clam-sb": {
+      "balanced_accuracy": 0.44021039703094544,
+      "brier": 0.6226000892942862,
+      "ece": 0.03400481975078581,
+      "n_slides": 500,
+      "nll": 1.2636545402823753,
+      "per_verdict": {
+        "CONTESTED": {
+          "accuracy": 0.46944444444444444,
+          "correct": 169,
+          "mean_confidence": 0.44712698633472125,
+          "n": 360,
+          "predicted_grade_counts": {
+            "0": 78,
+            "1": 137,
+            "2": 33,
+            "3": 49,
+            "4": 27,
+            "5": 36
+          },
+          "truth_grade_counts": {
+            "0": 63,
+            "1": 107,
+            "2": 50,
+            "3": 52,
+            "4": 45,
+            "5": 43
+          }
+        },
+        "NOT_APPLICABLE": {
+          "accuracy": null,
+          "correct": 0,
+          "mean_confidence": null,
+          "n": 0,
+          "predicted_grade_counts": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "truth_grade_counts": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "SUPPORTED": {
+          "accuracy": 0.8089887640449438,
+          "correct": 72,
+          "mean_confidence": 0.8090734475114373,
+          "n": 89,
+          "predicted_grade_counts": {
+            "0": 82,
+            "1": 6,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 1
+          },
+          "truth_grade_counts": {
+            "0": 68,
+            "1": 14,
+            "2": 3,
+            "3": 2,
+            "4": 1,
+            "5": 1
+          }
+        },
+        "UNSUPPORTED": {
+          "accuracy": 0.23529411764705882,
+          "correct": 12,
+          "mean_confidence": 0.27676337431458864,
+          "n": 51,
+          "predicted_grade_counts": {
+            "0": 4,
+            "1": 17,
+            "2": 6,
+            "3": 9,
+            "4": 7,
+            "5": 8
+          },
+          "truth_grade_counts": {
+            "0": 3,
+            "1": 8,
+            "2": 12,
+            "3": 10,
+            "4": 14,
+            "5": 4
+          }
+        }
+      },
+      "raw_accuracy": 0.506
+    },
+    "mean-pool": {
+      "balanced_accuracy": 0.3651533255012949,
+      "brier": 0.6945967222278937,
+      "ece": 0.0321000791788101,
+      "n_slides": 500,
+      "nll": 1.4200029104163587,
+      "per_verdict": {
+        "CONTESTED": {
+          "accuracy": 0.473972602739726,
+          "correct": 173,
+          "mean_confidence": 0.434546454638651,
+          "n": 365,
+          "predicted_grade_counts": {
+            "0": 166,
+            "1": 119,
+            "2": 9,
+            "3": 28,
+            "4": 21,
+            "5": 22
+          },
+          "truth_grade_counts": {
+            "0": 115,
+            "1": 106,
+            "2": 44,
+            "3": 36,
+            "4": 38,
+            "5": 26
+          }
+        },
+        "NOT_APPLICABLE": {
+          "accuracy": null,
+          "correct": 0,
+          "mean_confidence": null,
+          "n": 0,
+          "predicted_grade_counts": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "truth_grade_counts": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "SUPPORTED": {
+          "accuracy": 0.7777777777777778,
+          "correct": 7,
+          "mean_confidence": 0.746736380789015,
+          "n": 9,
+          "predicted_grade_counts": {
+            "0": 9,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          },
+          "truth_grade_counts": {
+            "0": 7,
+            "1": 1,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 0
+          }
+        },
+        "UNSUPPORTED": {
+          "accuracy": 0.2698412698412698,
+          "correct": 34,
+          "mean_confidence": 0.2588879130189381,
+          "n": 126,
+          "predicted_grade_counts": {
+            "0": 8,
+            "1": 32,
+            "2": 11,
+            "3": 30,
+            "4": 19,
+            "5": 26
+          },
+          "truth_grade_counts": {
+            "0": 12,
+            "1": 22,
+            "2": 20,
+            "3": 28,
+            "4": 22,
+            "5": 22
+          }
+        }
+      },
+      "raw_accuracy": 0.428
+    }
+  },
+  "regenerated_at": "2026-08-11T09:33:51.694896+00:00"
+}

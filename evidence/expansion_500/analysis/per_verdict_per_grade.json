@@ -1,0 +1,312 @@
+{
+  "backbone_version": "phikon-v2-owkin@2026-08-05",
+  "balanced_accuracy": 0.3651533255012949,
+  "cohort_id": "expansion-500",
+  "gate_rule_id": "confidence-threshold-v1@2026-08-05",
+  "ledger_path": "evidence/expansion_500/expansion_500_ledger.jsonl",
+  "mil_version": "trained@expansion-500-cv5-seed42",
+  "n_slides": 500,
+  "per_grade_recall": {
+    "0": {
+      "correct": 97,
+      "n_slides_with_true_grade": 134,
+      "recall": 0.7238805970149254
+    },
+    "1": {
+      "correct": 60,
+      "n_slides_with_true_grade": 129,
+      "recall": 0.46511627906976744
+    },
+    "2": {
+      "correct": 5,
+      "n_slides_with_true_grade": 65,
+      "recall": 0.07692307692307693
+    },
+    "3": {
+      "correct": 20,
+      "n_slides_with_true_grade": 64,
+      "recall": 0.3125
+    },
+    "4": {
+      "correct": 13,
+      "n_slides_with_true_grade": 60,
+      "recall": 0.21666666666666667
+    },
+    "5": {
+      "correct": 19,
+      "n_slides_with_true_grade": 48,
+      "recall": 0.3958333333333333
+    }
+  },
+  "per_verdict": {
+    "CONTESTED": {
+      "accuracy": 0.473972602739726,
+      "correct": 173,
+      "joint_pred_truth": {
+        "pred=0|truth=0": 87,
+        "pred=0|truth=1": 47,
+        "pred=0|truth=2": 12,
+        "pred=0|truth=3": 10,
+        "pred=0|truth=4": 5,
+        "pred=0|truth=5": 5,
+        "pred=1|truth=0": 26,
+        "pred=1|truth=1": 51,
+        "pred=1|truth=2": 20,
+        "pred=1|truth=3": 9,
+        "pred=1|truth=4": 12,
+        "pred=1|truth=5": 1,
+        "pred=2|truth=0": 0,
+        "pred=2|truth=1": 5,
+        "pred=2|truth=2": 2,
+        "pred=2|truth=3": 1,
+        "pred=2|truth=4": 1,
+        "pred=2|truth=5": 0,
+        "pred=3|truth=0": 0,
+        "pred=3|truth=1": 3,
+        "pred=3|truth=2": 7,
+        "pred=3|truth=3": 11,
+        "pred=3|truth=4": 5,
+        "pred=3|truth=5": 2,
+        "pred=4|truth=0": 1,
+        "pred=4|truth=1": 0,
+        "pred=4|truth=2": 0,
+        "pred=4|truth=3": 4,
+        "pred=4|truth=4": 10,
+        "pred=4|truth=5": 6,
+        "pred=5|truth=0": 1,
+        "pred=5|truth=1": 0,
+        "pred=5|truth=2": 3,
+        "pred=5|truth=3": 1,
+        "pred=5|truth=4": 5,
+        "pred=5|truth=5": 12
+      },
+      "mean_confidence": 0.434546454638651,
+      "n": 365,
+      "predicted_grade_counts": {
+        "0": 166,
+        "1": 119,
+        "2": 9,
+        "3": 28,
+        "4": 21,
+        "5": 22
+      },
+      "truth_grade_counts": {
+        "0": 115,
+        "1": 106,
+        "2": 44,
+        "3": 36,
+        "4": 38,
+        "5": 26
+      }
+    },
+    "NOT_APPLICABLE": {
+      "accuracy": null,
+      "correct": 0,
+      "mean_confidence": null,
+      "n": 0,
+      "predicted_grade_counts": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "truth_grade_counts": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "SUPPORTED": {
+      "accuracy": 0.7777777777777778,
+      "correct": 7,
+      "joint_pred_truth": {
+        "pred=0|truth=0": 7,
+        "pred=0|truth=1": 1,
+        "pred=0|truth=2": 1,
+        "pred=0|truth=3": 0,
+        "pred=0|truth=4": 0,
+        "pred=0|truth=5": 0,
+        "pred=1|truth=0": 0,
+        "pred=1|truth=1": 0,
+        "pred=1|truth=2": 0,
+        "pred=1|truth=3": 0,
+        "pred=1|truth=4": 0,
+        "pred=1|truth=5": 0,
+        "pred=2|truth=0": 0,
+        "pred=2|truth=1": 0,
+        "pred=2|truth=2": 0,
+        "pred=2|truth=3": 0,
+        "pred=2|truth=4": 0,
+        "pred=2|truth=5": 0,
+        "pred=3|truth=0": 0,
+        "pred=3|truth=1": 0,
+        "pred=3|truth=2": 0,
+        "pred=3|truth=3": 0,
+        "pred=3|truth=4": 0,
+        "pred=3|truth=5": 0,
+        "pred=4|truth=0": 0,
+        "pred=4|truth=1": 0,
+        "pred=4|truth=2": 0,
+        "pred=4|truth=3": 0,
+        "pred=4|truth=4": 0,
+        "pred=4|truth=5": 0,
+        "pred=5|truth=0": 0,
+        "pred=5|truth=1": 0,
+        "pred=5|truth=2": 0,
+        "pred=5|truth=3": 0,
+        "pred=5|truth=4": 0,
+        "pred=5|truth=5": 0
+      },
+      "mean_confidence": 0.746736380789015,
+      "n": 9,
+      "predicted_grade_counts": {
+        "0": 9,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "truth_grade_counts": {
+        "0": 7,
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      }
+    },
+    "UNSUPPORTED": {
+      "accuracy": 0.2698412698412698,
+      "correct": 34,
+      "joint_pred_truth": {
+        "pred=0|truth=0": 3,
+        "pred=0|truth=1": 1,
+        "pred=0|truth=2": 0,
+        "pred=0|truth=3": 1,
+        "pred=0|truth=4": 2,
+        "pred=0|truth=5": 1,
+        "pred=1|truth=0": 2,
+        "pred=1|truth=1": 9,
+        "pred=1|truth=2": 7,
+        "pred=1|truth=3": 6,
+        "pred=1|truth=4": 4,
+        "pred=1|truth=5": 4,
+        "pred=2|truth=0": 0,
+        "pred=2|truth=1": 2,
+        "pred=2|truth=2": 3,
+        "pred=2|truth=3": 4,
+        "pred=2|truth=4": 1,
+        "pred=2|truth=5": 1,
+        "pred=3|truth=0": 2,
+        "pred=3|truth=1": 5,
+        "pred=3|truth=2": 3,
+        "pred=3|truth=3": 9,
+        "pred=3|truth=4": 6,
+        "pred=3|truth=5": 5,
+        "pred=4|truth=0": 4,
+        "pred=4|truth=1": 4,
+        "pred=4|truth=2": 1,
+        "pred=4|truth=3": 3,
+        "pred=4|truth=4": 3,
+        "pred=4|truth=5": 4,
+        "pred=5|truth=0": 1,
+        "pred=5|truth=1": 1,
+        "pred=5|truth=2": 6,
+        "pred=5|truth=3": 5,
+        "pred=5|truth=4": 6,
+        "pred=5|truth=5": 7
+      },
+      "mean_confidence": 0.2588879130189381,
+      "n": 126,
+      "predicted_grade_counts": {
+        "0": 8,
+        "1": 32,
+        "2": 11,
+        "3": 30,
+        "4": 19,
+        "5": 26
+      },
+      "truth_grade_counts": {
+        "0": 12,
+        "1": 22,
+        "2": 20,
+        "3": 28,
+        "4": 22,
+        "5": 22
+      }
+    }
+  },
+  "raw_accuracy": 0.428,
+  "regenerated_at": "2026-08-11T09:16:24.029060+00:00",
+  "supported_slide_details": [
+    {
+      "claim_id": "b8375d0d9e6a0c25de0da5c917e11ad1#expansion-500#2026-08-10T16:17:38.553920+00:00",
+      "confidence": 0.7378512024879456,
+      "correct": false,
+      "ground_truth_isup": 2,
+      "predicted_isup": 0
+    },
+    {
+      "claim_id": "20eacac6717ec529a2629ed8e6baf29c#expansion-500#2026-08-10T16:17:38.553920+00:00",
+      "confidence": 0.7593412399291992,
+      "correct": true,
+      "ground_truth_isup": 0,
+      "predicted_isup": 0
+    },
+    {
+      "claim_id": "235cc1d05d01d1a3d2424514b27e68e2#expansion-500#2026-08-10T16:17:38.553920+00:00",
+      "confidence": 0.7465873956680298,
+      "correct": true,
+      "ground_truth_isup": 0,
+      "predicted_isup": 0
+    },
+    {
+      "claim_id": "0960b0d7aa0b3c3cb95acb72e8bcf4e1#expansion-500#2026-08-10T16:17:38.553920+00:00",
+      "confidence": 0.7263113856315613,
+      "correct": true,
+      "ground_truth_isup": 0,
+      "predicted_isup": 0
+    },
+    {
+      "claim_id": "864442925e04b7c4018f5c6eeb021212#expansion-500#2026-08-10T16:17:38.553920+00:00",
+      "confidence": 0.7652566432952881,
+      "correct": true,
+      "ground_truth_isup": 0,
+      "predicted_isup": 0
+    },
+    {
+      "claim_id": "e3cf7905ba04ebe9a090b586b4988e3d#expansion-500#2026-08-10T16:17:38.553920+00:00",
+      "confidence": 0.7675926685333252,
+      "correct": false,
+      "ground_truth_isup": 1,
+      "predicted_isup": 0
+    },
+    {
+      "claim_id": "410cba2621af8d087ca17589878129de#expansion-500#2026-08-10T16:17:38.553920+00:00",
+      "confidence": 0.7341216802597046,
+      "correct": true,
+      "ground_truth_isup": 0,
+      "predicted_isup": 0
+    },
+    {
+      "claim_id": "cbf88cd3846a62ae84c565808b9b5bd0#expansion-500#2026-08-10T16:17:38.553920+00:00",
+      "confidence": 0.7102999091148376,
+      "correct": true,
+      "ground_truth_isup": 0,
+      "predicted_isup": 0
+    },
+    {
+      "claim_id": "69fedae136a43fb721cf2feb8235a85f#expansion-500#2026-08-10T16:17:38.553920+00:00",
+      "confidence": 0.7732653021812439,
+      "correct": true,
+      "ground_truth_isup": 0,
+      "predicted_isup": 0
+    }
+  ]
+}

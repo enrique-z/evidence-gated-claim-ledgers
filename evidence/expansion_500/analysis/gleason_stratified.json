@@ -1,0 +1,359 @@
+{
+  "mean_pool": {
+    "n_rows": 500,
+    "by_isup_grade": {
+      "0": {
+        "n_total": 134,
+        "counts": {
+          "SUPPORTED": 7,
+          "UNSUPPORTED": 12,
+          "CONTESTED": 115,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.05223880597014925,
+          "UNSUPPORTED": 0.08955223880597014,
+          "CONTESTED": 0.8582089552238806,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 1.0,
+        "CONTESTED_accuracy": 0.7565217391304347,
+        "UNSUPPORTED_accuracy": 0.25,
+        "SUPPORTED_cancer_misclass": 0
+      },
+      "1": {
+        "n_total": 129,
+        "counts": {
+          "SUPPORTED": 1,
+          "UNSUPPORTED": 22,
+          "CONTESTED": 106,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.007751937984496124,
+          "UNSUPPORTED": 0.17054263565891473,
+          "CONTESTED": 0.8217054263565892,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.0,
+        "CONTESTED_accuracy": 0.4811320754716981,
+        "UNSUPPORTED_accuracy": 0.4090909090909091,
+        "SUPPORTED_cancer_misclass": 1
+      },
+      "2": {
+        "n_total": 65,
+        "counts": {
+          "SUPPORTED": 1,
+          "UNSUPPORTED": 20,
+          "CONTESTED": 44,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.015384615384615385,
+          "UNSUPPORTED": 0.3076923076923077,
+          "CONTESTED": 0.676923076923077,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.0,
+        "CONTESTED_accuracy": 0.045454545454545456,
+        "UNSUPPORTED_accuracy": 0.15,
+        "SUPPORTED_cancer_misclass": 1
+      },
+      "3": {
+        "n_total": 64,
+        "counts": {
+          "SUPPORTED": 0,
+          "UNSUPPORTED": 28,
+          "CONTESTED": 36,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.0,
+          "UNSUPPORTED": 0.4375,
+          "CONTESTED": 0.5625,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": null,
+        "CONTESTED_accuracy": 0.3055555555555556,
+        "UNSUPPORTED_accuracy": 0.32142857142857145,
+        "SUPPORTED_cancer_misclass": 0
+      },
+      "4": {
+        "n_total": 60,
+        "counts": {
+          "SUPPORTED": 0,
+          "UNSUPPORTED": 22,
+          "CONTESTED": 38,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.0,
+          "UNSUPPORTED": 0.36666666666666664,
+          "CONTESTED": 0.6333333333333333,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": null,
+        "CONTESTED_accuracy": 0.2631578947368421,
+        "UNSUPPORTED_accuracy": 0.13636363636363635,
+        "SUPPORTED_cancer_misclass": 0
+      },
+      "5": {
+        "n_total": 48,
+        "counts": {
+          "SUPPORTED": 0,
+          "UNSUPPORTED": 22,
+          "CONTESTED": 26,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.0,
+          "UNSUPPORTED": 0.4583333333333333,
+          "CONTESTED": 0.5416666666666666,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": null,
+        "CONTESTED_accuracy": 0.46153846153846156,
+        "UNSUPPORTED_accuracy": 0.3181818181818182,
+        "SUPPORTED_cancer_misclass": 0
+      }
+    }
+  },
+  "abmil": {
+    "n_rows": 500,
+    "by_isup_grade": {
+      "0": {
+        "n_total": 134,
+        "counts": {
+          "SUPPORTED": 69,
+          "UNSUPPORTED": 3,
+          "CONTESTED": 62,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.5149253731343284,
+          "UNSUPPORTED": 0.022388059701492536,
+          "CONTESTED": 0.4626865671641791,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.9855072463768116,
+        "CONTESTED_accuracy": 0.6129032258064516,
+        "UNSUPPORTED_accuracy": 0.3333333333333333,
+        "SUPPORTED_cancer_misclass": 0
+      },
+      "1": {
+        "n_total": 129,
+        "counts": {
+          "SUPPORTED": 14,
+          "UNSUPPORTED": 8,
+          "CONTESTED": 107,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.10852713178294573,
+          "UNSUPPORTED": 0.06201550387596899,
+          "CONTESTED": 0.8294573643410853,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.2857142857142857,
+        "CONTESTED_accuracy": 0.5981308411214953,
+        "UNSUPPORTED_accuracy": 0.375,
+        "SUPPORTED_cancer_misclass": 14
+      },
+      "2": {
+        "n_total": 65,
+        "counts": {
+          "SUPPORTED": 3,
+          "UNSUPPORTED": 12,
+          "CONTESTED": 50,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.046153846153846156,
+          "UNSUPPORTED": 0.18461538461538463,
+          "CONTESTED": 0.7692307692307693,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.0,
+        "CONTESTED_accuracy": 0.2,
+        "UNSUPPORTED_accuracy": 0.16666666666666666,
+        "SUPPORTED_cancer_misclass": 3
+      },
+      "3": {
+        "n_total": 64,
+        "counts": {
+          "SUPPORTED": 2,
+          "UNSUPPORTED": 9,
+          "CONTESTED": 53,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.03125,
+          "UNSUPPORTED": 0.140625,
+          "CONTESTED": 0.828125,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.0,
+        "CONTESTED_accuracy": 0.41509433962264153,
+        "UNSUPPORTED_accuracy": 0.2222222222222222,
+        "SUPPORTED_cancer_misclass": 2
+      },
+      "4": {
+        "n_total": 60,
+        "counts": {
+          "SUPPORTED": 1,
+          "UNSUPPORTED": 13,
+          "CONTESTED": 46,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.016666666666666666,
+          "UNSUPPORTED": 0.21666666666666667,
+          "CONTESTED": 0.7666666666666667,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.0,
+        "CONTESTED_accuracy": 0.2826086956521739,
+        "UNSUPPORTED_accuracy": 0.23076923076923078,
+        "SUPPORTED_cancer_misclass": 1
+      },
+      "5": {
+        "n_total": 48,
+        "counts": {
+          "SUPPORTED": 1,
+          "UNSUPPORTED": 4,
+          "CONTESTED": 43,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.020833333333333332,
+          "UNSUPPORTED": 0.08333333333333333,
+          "CONTESTED": 0.8958333333333334,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 1.0,
+        "CONTESTED_accuracy": 0.46511627906976744,
+        "UNSUPPORTED_accuracy": 0.25,
+        "SUPPORTED_cancer_misclass": 1
+      }
+    }
+  },
+  "clam_sb": {
+    "n_rows": 500,
+    "by_isup_grade": {
+      "0": {
+        "n_total": 134,
+        "counts": {
+          "SUPPORTED": 68,
+          "UNSUPPORTED": 3,
+          "CONTESTED": 63,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.5074626865671642,
+          "UNSUPPORTED": 0.022388059701492536,
+          "CONTESTED": 0.4701492537313433,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.9852941176470589,
+        "CONTESTED_accuracy": 0.6190476190476191,
+        "UNSUPPORTED_accuracy": 0.3333333333333333,
+        "SUPPORTED_cancer_misclass": 0
+      },
+      "1": {
+        "n_total": 129,
+        "counts": {
+          "SUPPORTED": 14,
+          "UNSUPPORTED": 8,
+          "CONTESTED": 107,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.10852713178294573,
+          "UNSUPPORTED": 0.06201550387596899,
+          "CONTESTED": 0.8294573643410853,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.2857142857142857,
+        "CONTESTED_accuracy": 0.6074766355140186,
+        "UNSUPPORTED_accuracy": 0.375,
+        "SUPPORTED_cancer_misclass": 14
+      },
+      "2": {
+        "n_total": 65,
+        "counts": {
+          "SUPPORTED": 3,
+          "UNSUPPORTED": 12,
+          "CONTESTED": 50,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.046153846153846156,
+          "UNSUPPORTED": 0.18461538461538463,
+          "CONTESTED": 0.7692307692307693,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.0,
+        "CONTESTED_accuracy": 0.2,
+        "UNSUPPORTED_accuracy": 0.16666666666666666,
+        "SUPPORTED_cancer_misclass": 3
+      },
+      "3": {
+        "n_total": 64,
+        "counts": {
+          "SUPPORTED": 2,
+          "UNSUPPORTED": 10,
+          "CONTESTED": 52,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.03125,
+          "UNSUPPORTED": 0.15625,
+          "CONTESTED": 0.8125,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.0,
+        "CONTESTED_accuracy": 0.4230769230769231,
+        "UNSUPPORTED_accuracy": 0.2,
+        "SUPPORTED_cancer_misclass": 2
+      },
+      "4": {
+        "n_total": 60,
+        "counts": {
+          "SUPPORTED": 1,
+          "UNSUPPORTED": 14,
+          "CONTESTED": 45,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.016666666666666666,
+          "UNSUPPORTED": 0.23333333333333334,
+          "CONTESTED": 0.75,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 0.0,
+        "CONTESTED_accuracy": 0.28888888888888886,
+        "UNSUPPORTED_accuracy": 0.21428571428571427,
+        "SUPPORTED_cancer_misclass": 1
+      },
+      "5": {
+        "n_total": 48,
+        "counts": {
+          "SUPPORTED": 1,
+          "UNSUPPORTED": 4,
+          "CONTESTED": 43,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.020833333333333332,
+          "UNSUPPORTED": 0.08333333333333333,
+          "CONTESTED": 0.8958333333333334,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_accuracy": 1.0,
+        "CONTESTED_accuracy": 0.46511627906976744,
+        "UNSUPPORTED_accuracy": 0.25,
+        "SUPPORTED_cancer_misclass": 1
+      }
+    }
+  }
+}
