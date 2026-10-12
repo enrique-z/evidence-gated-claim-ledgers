@@ -1409,5 +1409,5 @@
   "operating_alpha": 0.1,
   "pre_declared_plan": "papers/p5-asci/CHANGELOG_p5_round5.md (E-R5-1, E-R5-2)",
   "protocol": "cross-fold split conformal (calibrate on 4 folds' out-of-fold scores n=400, test on the held-out fold n=100, pooled over folds)",
-  "regenerated_at": "2026-08-26T15:44:37.664565+00:00"
+  "regenerated_at": "2026-08-24T15:59:02.381273+00:00"
 }

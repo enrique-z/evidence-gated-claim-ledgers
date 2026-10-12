@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or the claim-ledger format, please cite the paper below."
+title: "Evidence-Gated Claim Ledgers: code and ledgers"
+authors:
+  - family-names: Zueco
+    given-names: Enrique
+    affiliation: AIXC Research
+  - family-names: Lewis
+    given-names: David Scott
+    affiliation: AIXC Research
+  - family-names: Yi
+    given-names: Haley
+    affiliation: AIXC Research
+repository-code: "https://github.com/enrique-z/evidence-gated-claim-ledgers"
+license: MIT
+version: v1.0-camera-ready
+preferred-citation:
+  type: conference-paper
+  title: "Evidence-Gated Claim Ledgers: A Reporting Standard for Pathology Foundation Models"
+  authors:
+    - family-names: Zueco
+      given-names: Enrique
+    - family-names: Lewis
+      given-names: David Scott
+    - family-names: Yi
+      given-names: Haley
+  collection-title: "AI at Scale for Clinical Impact (ASCI) Workshop at NeurIPS 2026"
+  publisher:
+    name: PMLR
+  year: 2026

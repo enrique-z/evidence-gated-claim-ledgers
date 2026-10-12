@@ -58,6 +58,7 @@ def head_summary(rows: list[dict], head: str) -> dict:
     per_class_correct = Counter()
     supported_pred_grades = Counter()
     supported_truth_grades = Counter()
+    supported_pred_grade0_truth_cancer = 0  # grade-0 predictions in SUPPORTED that are actually cancer
     for r in rows:
         v = r["verdict"]
         pred = int(r["extra"]["isup_prediction"])
@@ -71,6 +72,8 @@ def head_summary(rows: list[dict], head: str) -> dict:
         if v == "SUPPORTED":
             supported_pred_grades[pred] += 1
             supported_truth_grades[truth] += 1
+            if pred == 0 and truth >= 1:
+                supported_pred_grade0_truth_cancer += 1
 
     per_verdict = {}
     for v in ["SUPPORTED", "UNSUPPORTED", "CONTESTED", "NOT_APPLICABLE"]:
@@ -107,6 +110,7 @@ def head_summary(rows: list[dict], head: str) -> dict:
                                           for g in range(6)},
         "misclassified_low_or_high_grade_cancer_in_supported":
             misclassified_cancer_in_supported,
+        "supported_pred_grade0_truth_cancer": supported_pred_grade0_truth_cancer,
         "per_grade_total": {str(c): per_class_total.get(c, 0) for c in range(6)},
     }
 
@@ -203,8 +207,21 @@ def main() -> int:
               "desc": "ABMIL SUPPORTED grade-0 share, percent (rounded)"})
     m.append({"value": 2, "kind": "count",
               "desc": "mean-pool SUPPORTED misclassified low-grade cancer count"})
+    # Wilson 95% CI for missed-cancer fraction among ABMIL SUPPORTED grade-0 predictions (§5, CC3)
+    # Numerator: predicted-grade-0 SUPPORTED slides where ground truth is ISUP 1-5
+    # Denominator: all ABMIL SUPPORTED predicted-grade-0 slides (= 83)
+    n_missed_cancer = heads["abmil"]["supported_pred_grade0_truth_cancer"]
+    n_grade0_supported = heads["abmil"]["supported_predicted_grade_counts"]["0"]
+    if n_grade0_supported:
+        p_mc, lo_mc, hi_mc = wilson_ci(n_missed_cancer, n_grade0_supported)
+        m.append({"value": round(p_mc * 100, 1), "kind": "missed_cancer_pct",
+                  "desc": f"ABMIL SUPPORTED missed-cancer pct among grade-0 predictions ({n_missed_cancer}/{n_grade0_supported}, Wilson point)"})
+        m.append({"value": round(lo_mc * 100, 1), "kind": "missed_cancer_wilson_lo",
+                  "desc": "ABMIL SUPPORTED missed-cancer fraction 95% Wilson lower bound (as %)"})
+        m.append({"value": round(hi_mc * 100, 1), "kind": "missed_cancer_wilson_hi",
+                  "desc": "ABMIL SUPPORTED missed-cancer fraction 95% Wilson upper bound (as %)"})
     m.append({"value": 14, "kind": "count",
-              "desc": "ABMIL SUPPORTED slides actually cancer (from truth-grade dist)"})
+              "desc": "ABMIL SUPPORTED slides actually cancer (from truth-grade dist) [legacy; superseded by missed_cancer_pct above]"})
     m.append({"value": 10, "kind": "factor",
               "desc": "10x jump 9->90 SUPPORTED count under attention pooling"})
     m.append({"value": 6, "kind": "count",

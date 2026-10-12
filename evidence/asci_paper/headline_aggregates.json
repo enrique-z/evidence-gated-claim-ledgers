@@ -56,6 +56,7 @@
         }
       },
       "raw_accuracy": 0.504,
+      "supported_pred_grade0_truth_cancer": 15,
       "supported_predicted_grade_counts": {
         "0": 83,
         "1": 6,
@@ -121,6 +122,7 @@
         }
       },
       "raw_accuracy": 0.506,
+      "supported_pred_grade0_truth_cancer": 15,
       "supported_predicted_grade_counts": {
         "0": 82,
         "1": 6,
@@ -186,6 +188,7 @@
         }
       },
       "raw_accuracy": 0.428,
+      "supported_pred_grade0_truth_cancer": 2,
       "supported_predicted_grade_counts": {
         "0": 9,
         "1": 0,
@@ -251,6 +254,7 @@
         }
       },
       "raw_accuracy": 0.26,
+      "supported_pred_grade0_truth_cancer": 0,
       "supported_predicted_grade_counts": {
         "0": 0,
         "1": 0,
@@ -269,7 +273,7 @@
       }
     }
   },
-  "regenerated_at": "2026-08-11T09:54:28.316934+00:00",
+  "regenerated_at": "2026-08-28T18:02:41.425837+00:00",
   "safenum_manifest": [
     {
       "desc": "expansion-500 slide count",
@@ -687,7 +691,22 @@
       "value": 2
     },
     {
-      "desc": "ABMIL SUPPORTED slides actually cancer (from truth-grade dist)",
+      "desc": "ABMIL SUPPORTED missed-cancer pct among grade-0 predictions (15/83, Wilson point)",
+      "kind": "missed_cancer_pct",
+      "value": 18.1
+    },
+    {
+      "desc": "ABMIL SUPPORTED missed-cancer fraction 95% Wilson lower bound (as %)",
+      "kind": "missed_cancer_wilson_lo",
+      "value": 11.3
+    },
+    {
+      "desc": "ABMIL SUPPORTED missed-cancer fraction 95% Wilson upper bound (as %)",
+      "kind": "missed_cancer_wilson_hi",
+      "value": 27.7
+    },
+    {
+      "desc": "ABMIL SUPPORTED slides actually cancer (from truth-grade dist) [legacy; superseded by missed_cancer_pct above]",
       "kind": "count",
       "value": 14
     },

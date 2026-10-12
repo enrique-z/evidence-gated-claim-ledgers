@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-10-12T20:37:49.424150+00:00",
+  "abmil_tau_high_sweep": [
+    {
+      "tau_high": 0.5,
+      "tau_low": 0.3,
+      "released_n": 205,
+      "coverage": 0.41,
+      "coverage_pct": 41.0,
+      "released_accuracy": 0.683,
+      "missed_cancers_released": 36,
+      "correct": 140
+    },
+    {
+      "tau_high": 0.55,
+      "tau_low": 0.3,
+      "released_n": 164,
+      "coverage": 0.328,
+      "coverage_pct": 32.8,
+      "released_accuracy": 0.713,
+      "missed_cancers_released": 33,
+      "correct": 117
+    },
+    {
+      "tau_high": 0.6,
+      "tau_low": 0.3,
+      "released_n": 123,
+      "coverage": 0.246,
+      "coverage_pct": 24.6,
+      "released_accuracy": 0.764,
+      "missed_cancers_released": 24,
+      "correct": 94
+    },
+    {
+      "tau_high": 0.65,
+      "tau_low": 0.3,
+      "released_n": 105,
+      "coverage": 0.21,
+      "coverage_pct": 21.0,
+      "released_accuracy": 0.771,
+      "missed_cancers_released": 21,
+      "correct": 81
+    },
+    {
+      "tau_high": 0.7,
+      "tau_low": 0.3,
+      "released_n": 90,
+      "coverage": 0.18,
+      "coverage_pct": 18.0,
+      "released_accuracy": 0.811,
+      "missed_cancers_released": 15,
+      "correct": 73
+    }
+  ],
+  "keyed_aggregates": {
+    "abmil.supported.n": 90,
+    "abmil.supported.acc": 0.811,
+    "abmil.supported.wilson.lo": 0.718,
+    "abmil.supported.wilson.hi": 0.879,
+    "abmil.supported.grade0.n": 83,
+    "abmil.supported.missed_cancer": 15,
+    "abmil.supported.missed_cancer.pct": 18.1,
+    "abmil.supported.missed_cancer.wilson.lo.pct": 11.3,
+    "abmil.supported.missed_cancer.wilson.hi.pct": 27.7,
+    "meanpool.supported.n": 9,
+    "meanpool.supported.acc": 0.778,
+    "meanpool.supported.wilson.lo": 0.453,
+    "meanpool.supported.wilson.hi": 0.937,
+    "abmil.contested.wilson.lo": 0.412,
+    "abmil.contested.wilson.hi": 0.514,
+    "expansion500.n": 500,
+    "abmil.raw_accuracy": 0.504,
+    "meanpool.coverage_pct": 1.8,
+    "abmil.release_count_default": 90
+  },
+  "per_institution_meanpool": {
+    "n_rows": 500,
+    "by_provider": {
+      "karolinska": {
+        "n_total": 252,
+        "counts": {
+          "SUPPORTED": 8,
+          "UNSUPPORTED": 22,
+          "CONTESTED": 222,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.031746031746031744,
+          "UNSUPPORTED": 0.0873015873015873,
+          "CONTESTED": 0.8809523809523809,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_cancer_count": 2,
+        "SUPPORTED_total": 8
+      },
+      "radboud": {
+        "n_total": 248,
+        "counts": {
+          "SUPPORTED": 1,
+          "UNSUPPORTED": 104,
+          "CONTESTED": 143,
+          "NOT_APPLICABLE": 0
+        },
+        "fractions": {
+          "SUPPORTED": 0.004032258064516129,
+          "UNSUPPORTED": 0.41935483870967744,
+          "CONTESTED": 0.5766129032258065,
+          "NOT_APPLICABLE": 0.0
+        },
+        "SUPPORTED_cancer_count": 0,
+        "SUPPORTED_total": 1
+      }
+    }
+  },
+  "note": "Numbers derived from committed ledgers; skip rows where justification.is_tracer=True"
+}

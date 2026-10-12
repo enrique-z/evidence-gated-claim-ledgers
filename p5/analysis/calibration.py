@@ -38,6 +38,12 @@ from datetime import datetime, timezone
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+
+# NeurIPS 2026 formatting: submissions must contain only Type 1 or embedded
+# TrueType fonts. Matplotlib emits Type 3 for PDF by default; 42 selects
+# TrueType. Font encoding only -- no figure content is affected.
+matplotlib.rcParams["pdf.fonttype"] = 42
+matplotlib.rcParams["ps.fonttype"] = 42
 import numpy as np
 from scipy.optimize import minimize_scalar
 

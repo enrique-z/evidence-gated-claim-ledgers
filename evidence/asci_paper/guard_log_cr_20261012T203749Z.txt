@@ -1,0 +1,4 @@
+guard run at 2026-10-12T20:37:49.589954+00:00
+manuscript: papers/p5-asci/main_camera_ready.tex
+ledgers loaded: 8550 entries
+  guard OK (8550 ledger entries loaded, 0 violations)

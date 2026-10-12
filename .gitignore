@@ -1,3 +1,9 @@
 .DS_Store
 __pycache__/
 *.pyc
+papers/p5-asci/*.aux
+papers/p5-asci/*.bbl
+papers/p5-asci/*.blg
+papers/p5-asci/*.log
+papers/p5-asci/*.out
+.pytest_cache/
